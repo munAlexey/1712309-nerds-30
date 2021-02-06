@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Алексей Мун](https://up.htmlacademy.ru/htmlcss/30/user/1712309).
-* Наставник: `Неизвестно`.
+* Наставник: [Никита Шугаев](https://htmlacademy.ru/profile/humizi).
 
 ---
 
