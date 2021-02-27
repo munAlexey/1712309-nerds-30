@@ -57,6 +57,9 @@ img {
 
 /* Header */
 
+.main-header{
+  background-color: var(--basic-extra-light);
+}
 .navigation-list{
   list-style-type: none;
 }
@@ -78,7 +81,9 @@ img {
 }
 
 /* Slider */
-
+.slider{
+  background-color: var(--basic-extra-light);
+}
 .slide-slogan{
   font-family: "Roboto";
   font-style: normal;
