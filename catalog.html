@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favicon.ico">
     <link rel="icon" href="img/icons/icon.svg" type="image/svg+xml">
@@ -11,18 +12,18 @@
   <body>
   <header>
       <nav>
-        <a>
+        <a href="index.html">
           <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип Нёрдс">
         </a>
         <ul>
           <li>
-            <a href="#">Студия</a>
+            <a href="index.html">Студия</a>
           </li>
           <li>
             <a href="#">Клиенты</a>
           </li>
           <li>
-            <a href="catalog.html">Магазин</a>
+            <a href="#">Магазин</a>
           </li>
           <li>
             <a href="#">Контакты</a>
@@ -55,26 +56,56 @@
 					<legend>
 						Сетка:
 					</legend>
-					<label>
-						<input type="radio" name="grid-diff" value="adaptive" checked> Адаптивная
-					</label>
-					<label>
-						<input type="radio" name="grid-diff" value="fix-price"> Фиксированная
-					</label>
-					<label>
-						<input type="radio" name="grid-diff" value="flexible"> Резиновая
-					</label>
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="grid-diff" value="adaptive" checked> Адаптивная
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="grid-diff" value="fix-price"> Фиксированная
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="grid-diff" value="flexible"> Резиновая
+              </label>
+            </li>
+          </ul>
 				</fieldset>
 				<fieldset>
 					<legend>
 						Особенности:
 					</legend>
-					<label><input type="checkbox" name="features" value="Слайдер" checked>Слайдер</label>
-					<label><input type="checkbox" name="features" value="Блок преимуществ">Блок преимуществ</label>
-					<label><input type="checkbox" name="features" value="Новости" checked>Новости</label>
-					<label><input type="checkbox" name="features" value="Галерея">Галерея</label>
-					<label><input type="checkbox" name="features" value="Корзина">Корзина</label>
-				</fieldset>
+          <ul>
+					  <li>
+              <label>
+                <input type="checkbox" name="features" value="Слайдер" checked>Слайдер
+              </label>
+            </li>
+					  <li>
+              <label>
+                <input type="checkbox" name="features" value="Блок преимуществ">Блок преимуществ
+              </label>
+            </li>
+					  <li>
+              <label>
+                <input type="checkbox" name="features" value="Новости" checked>Новости
+              </label>
+            </li>
+					  <li>
+              <label>
+                <input type="checkbox" name="features" value="Галерея">Галерея
+              </label>
+            </li>
+					  <li>
+              <label>
+                <input type="checkbox" name="features" value="Корзина">Корзина
+              </label>
+            </li>
+				  </ul>
+        </fieldset>
 				<button type="button">показать</button>
 			</form>
 		</section>
@@ -83,11 +114,23 @@
       <div>
       <p>Сортировать:</p>
       <div>
-        <a>По цене</a>
-        <a href="#">По типу</a>
-        <a href="#">По названию</a>
-        <a>стрелки</a>
-        <a href="#">стрелки</a>
+        <ul>
+          <li>
+            <a>По цене</a>
+          </li>
+          <li>
+            <a href="#">По типу</a>
+          </li>
+          <li>
+            <a href="#">По названию</a>
+          </li>
+          <li>
+            <a>стрелки</a>
+          </li>
+          <li>
+            <a href="#">стрелки</a>
+          </li>
+        </ul>
       </div>
       </div>
 			<ul>
@@ -97,7 +140,7 @@
 					</a>
           <div>
             <a>Sedona</a>
-            <p>Информационный сайт для туристов</p>
+            <p>Информационный сайтдля туристов</p>
             <button type="button">9 900 &#8381;</button>
           </div>
 				</li>
@@ -107,7 +150,7 @@
 					</a>
           <div>
             <a>pink app</a>
-            <p>Продуктовый лендинг приложения для iOS и Android</p>
+            <p>Продуктовый лендингприложения для iOS и Android</p>
             <button type="button">9 900 &#8381;</button>
           </div>
 				</li>
@@ -117,7 +160,7 @@
 					</a>
           <div>
             <a>Barbershop</a>
-            <p>Сайт салона красоты. Для мужчин, да.</p>
+            <p>Сайт салона красоты.Для мужчин, да.</p>
             <button type="button">9 900 &#8381;</button>
           </div>
 				</li>
@@ -127,7 +170,7 @@
 					</a>
           <div>
             <a>MISHKA</a>
-            <p>Интернет-магазин вязаных игрушек</p>
+            <p>Интернет-магазинвязаных игрушек</p>
             <button type="button">9 900 &#8381;</button>
           </div>
 				</li>
@@ -147,7 +190,7 @@
 					</a>
           <div>
             <a>КВАСТ</a>
-            <p>Промо-сайт производителя крафтового кваса</p>
+            <p>Промо-сайт производителякрафтового кваса</p>
             <button type="button">9 900 &#8381;</button>
           </div>
 				</li>
@@ -172,10 +215,10 @@
     <div>
       <p><img src="img/map.png" width="1440" height="416"alt="map"></p>
       <div>
-        <h3>NЁRDS DESIGN STUDIO</h3>
+        <h3>nёrds design studio</h3>
         <p>
-          191186, Санкт-Петербург,<br> 
-          ул. Б. Конюшенная, д. 19/8  
+          191186, Санкт-Петербург,<br>
+          ул. Б. Конюшенная, д. 19/8
         </p>
         <p>тел. +7 (812) 275-75-75</p>
         <button type="button">Напишите нам</button>
