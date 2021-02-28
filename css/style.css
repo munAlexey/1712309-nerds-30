@@ -40,6 +40,7 @@
   --basic-grey:#666666;
   --basic-dark-grey: #283136;
   --basic-middle-grey: #444444;
+  --basic-input-grey: #D7DCDE;
 }
 .page-body {
   margin: 0;
@@ -78,6 +79,7 @@ img {
   font-weight: 500;
   line-height: 30px;
   color: var( --basic-black);
+  text-decoration: none;
 }
 
 /* Slider */
@@ -243,6 +245,34 @@ img {
   color: var(--basic-middle-grey);
 }
 
+/* popup */
+.popup-title{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 53px;
+}
+.popup-subtitle{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 18px;
+}
+.popup_placeholder{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+color: var(--basic-middle-grey);
+background: var(--basic-white);
+border: 2px solid var(--basic-input-grey);
+box-sizing: border-box;
+border-radius: 3px;
+}
+
 /* buttons */
 
 .button{
@@ -255,3 +285,33 @@ img {
   background-color: var(--basic-pink);
   text-transform: uppercase;
 }
+.button:hover{
+  background-color: var(--basic-hover-pink);
+}
+.application_button{
+  background-color: var(--basic-green);
+}
+.application_button:hover{
+  background-color: var(--basic-hover-green);
+}
+.presentation_button{
+  background-color: var(--basic-yellow);
+}
+.presentation_button:hover{
+  background-color: var(--basic-hover-yellow);
+}
+.button:active{
+  background-color: var(--basic-press-pink);
+}
+
+/* condition */
+
+.navigation-list a:hover,
+.shopping-basket:hover{
+  color: var(--basic-hover-pink);
+}
+.navigation-list a:active,
+.shopping-basket:active{
+  color: var(--basic-black);
+}
+
