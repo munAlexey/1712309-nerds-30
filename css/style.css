@@ -66,16 +66,13 @@ img {
 }
 .navigation-link{
   text-decoration: none;
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 16px;
   line-height: 30px;
   color: var( --basic-black);
 }
 .shopping-basket{
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 500;
   line-height: 30px;
   color: var( --basic-black);
@@ -87,23 +84,18 @@ img {
   background-color: var(--basic-extra-light);
 }
 .slide-slogan{
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 55px;
   line-height: 55px;
 }
-.slide-slogan_text{
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
+.slide-text{
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   line-height: 24px;
   color: var(--basic-dark-grey);
 }
 .learn-more{
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   text-decoration: none;
@@ -115,16 +107,29 @@ img {
 .opportunity-item{
   list-style-type: none;
 }
+.web-site_image{
+  background-image: url("../img/illustration-1.png");
+  width: 300px;
+  height: 146px;
+}
+.application_image{
+  background-image: url("../img/illustration-2.png");
+  width: 300px;
+  height: 146px;
+}
+.presentation_image{
+  background-image: url("../img/illustration-3.png");
+  width: 300px;
+  height: 146px;
+}
 .opportunity-titles{
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 24px;
   line-height: 30px;
 }
 .opportunity-text{
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: normal;
   line-height: 24px;
   color: var(--basic-dark-grey);
@@ -133,64 +138,47 @@ img {
 /* strengths */
 
 .strength-slogan{
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 45px;
   line-height: 45px;
 }
 .strength-slogan-desc{
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   line-height: 24px;
   color: var(--basic-dark-grey);
 }
 .strengths-title{
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 16px;
   line-height: 24px;
   color: var(--basic-dark-grey);
 }
 .strengths-skill{
   list-style-type: none;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   line-height: 24px;
   color: var(--basic-dark-grey);
 }
 .strength p{
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 16px;
   line-height: 24px;
 }
 .strength-indicators{
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 45px;
   line-height: 64px;
 }
 .strength-indicators span{
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 40px;
 }
 .strengths-items{
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 18px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   color: var(--basic-dark-grey);
 }
 
@@ -203,69 +191,50 @@ img {
 /* footer */
 
 .contacts-title{
-  font-family: "Roboto";
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 30px;
   text-transform: uppercase;
 }
-.contact-adress{
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 18px;
+.contacts-adress{
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   color: var(--basic-grey);
 }
-.contact-phone{
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 18px;
+.contacts-phone{
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   color: var(--basic-grey);
 }
 .social-network{
   list-style-type: none;
 }
 .footer_title{
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 36px;
   line-height: 36px;
 }
 .footer_subtitle{
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   line-height: 22px;
   color: var(--basic-middle-grey);
 }
 
 /* popup */
 .popup-title{
-font-family: Roboto;
+font-family: "Roboto", Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 45px;
 line-height: 53px;
 }
 .popup-subtitle{
-font-family: Roboto;
-font-style: normal;
+font-family: "Roboto", Arial, Helvetica, sans-serif;
 font-weight: bold;
-font-size: 16px;
-line-height: 18px;
 }
-.popup_placeholder{
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 18px;
+.popup-placeholder{
+font-family: "Roboto", Arial, Helvetica, sans-serif;
 color: var(--basic-middle-grey);
 background: var(--basic-white);
 border: 2px solid var(--basic-input-grey);
@@ -276,11 +245,8 @@ border-radius: 3px;
 /* buttons */
 
 .button{
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 18px;
   color: var(--basic-white);
   background-color: var(--basic-pink);
   text-transform: uppercase;

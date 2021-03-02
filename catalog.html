@@ -1,36 +1,37 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
-    <link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favicon.ico">
     <link rel="icon" href="img/icons/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="img/icons/180.png">
+	<link rel="icon" href="manifest.webmanifest">
   </head>
-  <body>
-  <header>
-      <nav>
-        <a href="index.html">
+  <body class="page-body">
+	  <header class="main-header">
+      <nav class="main-navigation">
+        <a href="index.html" class="main-header-logo">
           <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип Нёрдс">
         </a>
-        <ul>
-          <li>
-            <a href="index.html">Студия</a>
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a href="index.html" class="navigation-link">Студия</a>
           </li>
-          <li>
-            <a href="#">Клиенты</a>
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">Клиенты</a>
           </li>
-          <li>
-            <a href="#">Магазин</a>
+          <li class="navigation-item">
+            <a href="catalog.html" class="navigation-link">Магазин</a>
           </li>
-          <li>
-            <a href="#">Контакты</a>
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">Контакты</a>
           </li>
         </ul>
-        <a href="#">
-          <img src="img/cart-icon.svg" width="15" height="15"alt="Корзина">Корзина
+        <a href="#" class="shopping-basket">
+          <img src="img/cart-icon.svg" width="15" height="15" alt="Корзина">Корзина
         </a>
       </nav>
   </header>
@@ -140,7 +141,7 @@
 					</a>
           <div>
             <a>Sedona</a>
-            <p>Информационный сайтдля туристов</p>
+            <p>Информационный сайт для туристов</p>
             <button type="button">9 900 &#8381;</button>
           </div>
 				</li>
@@ -160,7 +161,7 @@
 					</a>
           <div>
             <a>Barbershop</a>
-            <p>Сайт салона красоты.Для мужчин, да.</p>
+            <p>Сайт салона красоты. Для мужчин, да.</p>
             <button type="button">9 900 &#8381;</button>
           </div>
 				</li>
@@ -170,7 +171,7 @@
 					</a>
           <div>
             <a>MISHKA</a>
-            <p>Интернет-магазинвязаных игрушек</p>
+            <p>Интернет-магазин вязаных игрушек</p>
             <button type="button">9 900 &#8381;</button>
           </div>
 				</li>
@@ -190,7 +191,7 @@
 					</a>
           <div>
             <a>КВАСТ</a>
-            <p>Промо-сайт производителякрафтового кваса</p>
+            <p>Промо-сайт производителя крафтового кваса</p>
             <button type="button">9 900 &#8381;</button>
           </div>
 				</li>
@@ -211,28 +212,42 @@
 			</ul>
 		</section>
 	</main>
-  <footer>
-    <div>
-      <p><img src="img/map.png" width="1440" height="416"alt="map"></p>
-      <div>
-        <h3>nёrds design studio</h3>
-        <p>
-          191186, Санкт-Петербург,<br>
-          ул. Б. Конюшенная, д. 19/8
-        </p>
-        <p>тел. +7 (812) 275-75-75</p>
-        <button type="button">Напишите нам</button>
-      </div>
+	<footer class="main-footer">
+		<div class="footer-map">
+      	<p>
+			  <img src="img/map.png" width="1440" height="416" alt="map">
+		</p>
+			<div class="contacts">
+        <h3 class="contacts-title">nёrds design studio</h3>
+			  <p class="contacts-adress">
+			    191186, Санкт-Петербург,<br>
+			    ул. Б. Конюшенная, д. 19/8
+			  </p>
+        <p class="contacts-phone">тел. +7 (812) 275-75-75</p>
+        <button type="button" class="button contact-us">Напишите нам</button>
+			</div>
     </div>
-    <ul>
-      <li><a href="#"><img src="img/vk-icon.svg" width="26" height="15" alt="социальные сети vk"></a></li>
-      <li><a href="#"><img src="img/fb-icon.svg" width="12" height="22"alt="социальные сети fb"></a></li>
-      <li><a href="#"><img src="img/insta-icon.svg" width="21" height="21"alt="социальные сети instagram"></a></li>
-    </ul>
-    <div>
-      <p>Давайте дружить, это выгодно!</p>
-      <p>Скидка 10% для друзей из социальных сетей.</p>
-    </div>
-  </footer>
+        <ul class="social-network">
+          <li class="social-network-vk"><a href="#"><img src="img/vk-icon.svg" width="26" height="15" alt="социальные сети vk"></a></li>
+          <li class="social-network-fb"><a href="#"><img src="img/fb-icon.svg" width="12" height="22" alt="социальные сети fb"></a></li>
+          <li class="social-network-inst"><a href="#"><img src="img/insta-icon.svg" width="21" height="21" alt="социальные сети instagram"></a></li>
+        </ul>
+    	<div>
+			<p class="footer_title">Давайте дружить, это выгодно!</p>
+			<p class="footer_subtitle">Скидка 10% для друзей из социальных сетей.</p>
+   	 	</div>
+	</footer>
+  <div class="popup">
+    <p class="popup-title">Напишите нам</p>
+    <form action="#" method="POST">
+      <label for="user-name" class="popup-subtitle">Ваше имя:</label>
+      <input type="text" class="popup-placeholder" name="name-sername" id="user-name" placeholder="Имя Фамилия">
+      <label for="user-login" class="popup-subtitle">Ваш email:</label>
+      <input type="email" class="popup-placeholder" name="data-login" id="user-login" placeholder="email@example.com ">
+      <label for="user-text" class="popup-subtitle">Текст письма:</label>
+      <input type="text" class="popup-placeholder" name="data-appeal" id="user-text" placeholder="В свободной форме">
+    </form>
+    <button type="button" class="button">Отправить</button>
+  </div>
   </body>
 </html>
