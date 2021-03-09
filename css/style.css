@@ -51,7 +51,7 @@
   font-weight: 400;
   font-size: 16px;
   min-width: 1140px;
-  font-family: "Roboto", sans-serif, 'Times New Roman', Times, serif;
+  font-family: "Roboto", 'Arial', sans-serif;
 }
 img {
   max-width: 100%;
@@ -258,7 +258,7 @@ line-height: 55px;
   color: var(--basic-black);
   opacity: 0.3;
 }
-.catalog-item-site{
+.catalog-item-info{
   background-color: var(--basic-extra-light);
   text-align: center;
 }
@@ -278,7 +278,7 @@ line-height: 55px;
 .catalog-item-subtitle{
   color: var(--basic-grey);
 }
-.catalog-pages{
+.pagination{
   list-style-type: none;
 }
 .catalog-page-item a{
