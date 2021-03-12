@@ -281,7 +281,7 @@ line-height: 55px;
 .pagination{
   list-style-type: none;
 }
-.catalog-page-item a{
+.pagination-item a{
   text-decoration: none;
   color: var(--basic-black);
   background-color: var(--basic-extra-light);
